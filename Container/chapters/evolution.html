@@ -1,0 +1,85 @@
+<section>
+    <h3>One Application One Physical Server</h3>
+    <img src="images/server_architecture_physic.png" width="400px" alt="One Application One Physical Server Schema" />
+    <blockquote>
+        I have one machine just for me!
+    </blockquote>
+    <p>Weaknesses:</p>
+    <ul>
+        <li>Slowness deployment</li>
+        <li>Expensive maintenance</li>
+        <li>Wasted resources</li>
+        <li>No scaling</li>
+        <li>Migration issue</li>
+        <li>Dependency with supplier</li>
+    </ul>
+</section>
+<section>
+    <h3>One Physical Server Multiple Virtual Machine</h3>
+    <img src="images/server_architecture_VM.png" width="500px" alt="One Physical Server Multiple Virtual Machine Schema" />
+    <blockquote>
+        I have one Virtual Machine just for me!
+    </blockquote>
+        <div style="display: inline-flex; flex-direction: row; align-items: center;">
+        <div style="align-self: flex-start; margin: 5px;">
+            <p>Leverages:</p>
+            <ul>
+                <li>Price drop in => Cloud solution</li>
+                <li>Much easyly scale</li>
+            </ul>
+        </div>
+        <div style="align-self: flex-start; margin: 5px;">
+            <p>Weaknesses:</p>
+            <ul>
+                <li>Embedded an complete OS => wasted resources</li>
+                <li>Portability issue</li>
+                <li>Migration issue</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section>
+    <h3>One Physical Server Multiple Container</h3>
+    <img src="images/server_architecture_container_2.png" width="700px" alt="One Physical Server Multiple Container Schema" />
+    <blockquote>
+        I have just what I want inside my Container!
+    </blockquote>
+    <div style="display: inline-flex; flex-direction: row; flex-wrap: wrap; align-items: center; ">
+        <div style="align-self: flex-start; margin: 5px;">
+            <p>Leverages:</p>
+            <ul>
+                <li>Saving resources</li>
+                <li>Easy portability</li>
+            </ul>
+        </div>
+        <div style="align-self: flex-start; margin: 5px;">
+            <p>Weaknesses:</p>
+            <ul>
+                <li>Destroy all the actual infrastructure</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section>
+    <h3>One Physical Server Multiple Virtual Machine with Multiple Container</h3>
+    <img src="images/server_architecture_actual.png" width="700px" alt="representation of Business Culture" />
+    <blockquote>
+        I have just what I want inside my Container!
+    </blockquote>
+    <div style="display: inline-flex; flex-direction: row; flex-wrap: wrap; align-items: center; ">
+        <div style="align-self: flex-start; margin: 0 15px;">
+            <p>Leverages:</p>
+            <ul>
+                <li>Security</li>
+            </ul>
+        </div>
+        <div style="align-self: flex-start; margin: 0 15px;">
+            <p>Weaknesses:</p>
+            <ul>
+                <li>null</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
